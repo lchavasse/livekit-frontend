@@ -8,7 +8,7 @@ import { NextResponse } from "next/server";
 // NOTE: you are expected to define the following environment variables in `.env.local`:
 const API_KEY = process.env.LIVEKIT_API_KEY;
 const API_SECRET = process.env.LIVEKIT_API_SECRET;
-const LIVEKIT_URL = process.env.LIVEKIT_URL;
+const LIVEKIT_URL="wss://daily-call-agent-hrmvzuwv.livekit.cloud"
 
 export type ConnectionDetails = {
   serverUrl: string;
